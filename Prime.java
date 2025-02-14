@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.lang.*;
 public class Prime{
-  boolean isPrime(int number){
+  public boolean isPrime(int number){
         for(int i = 2; i <= Math.sqrt(number); i++){
             if(number % i == 0){
                 return false;
